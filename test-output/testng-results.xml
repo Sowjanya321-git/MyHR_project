@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-31T16:22:52 MDT" name="Default suite" finished-at="2022-03-31T16:23:04 MDT" duration-ms="11559">
+    <groups>
+    </groups>
+    <test started-at="2022-03-31T16:22:52 MDT" name="Default test" finished-at="2022-03-31T16:23:04 MDT" duration-ms="11559">
+      <class name="testlayer.Test_class">
+        <test-method is-config="true" signature="Initsetup()[pri:0, instance:testlayer.Test_class@5ffead27]" started-at="2022-03-31T16:22:52 MDT" name="Initsetup" finished-at="2022-03-31T16:22:55 MDT" duration-ms="2910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initsetup -->
+        <test-method signature="Login()[pri:1, instance:testlayer.Test_class@5ffead27]" started-at="2022-03-31T16:22:55 MDT" name="Login" finished-at="2022-03-31T16:23:00 MDT" duration-ms="5209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="Details()[pri:2, instance:testlayer.Test_class@5ffead27]" started-at="2022-03-31T16:23:00 MDT" name="Details" finished-at="2022-03-31T16:23:03 MDT" depends-on-methods="testlayer.Test_class.Login" duration-ms="3310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Details -->
+        <test-method is-config="true" signature="Closepage()[pri:0, instance:testlayer.Test_class@5ffead27]" started-at="2022-03-31T16:23:03 MDT" name="Closepage" finished-at="2022-03-31T16:23:04 MDT" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Closepage -->
+      </class> <!-- testlayer.Test_class -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
