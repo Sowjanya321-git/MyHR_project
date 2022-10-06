@@ -46,39 +46,32 @@ public class POM_HRapp extends BaseHRMClass{
 		return driver.getTitle();
 	}
 	
-	public void Loginpage(String uname,String pass) throws InterruptedException {
-		Username.sendKeys(uname);
+	public void typeusername(String name,String pass) {
+		
+		Username.sendKeys(name);
 		Password.sendKeys(pass);
-		Loginbtn.click();
-		Thread.sleep(2000);
-		Myinfo.click();
-		Contactdetails.click();
-		Editbutton.click();
+		/*
+		 * Loginbtn.click(); Thread.sleep(2000); Myinfo.click(); Contactdetails.click();
+		 * Editbutton.click();
+		 */
 		
 		}
-	public void Details_page(String add,String city,String province,String zip,String country,String mob,String email){
-		
-		
-		
-		
-			
-			
-			WebDriverWait wait= new WebDriverWait(driver,100);
-			wait.until(ExpectedConditions.visibilityOf(Address1));  
-			
-			Address1.sendKeys(add);
-			Cityname.sendKeys(city);
-			Provincename.sendKeys(province);
-			Zipcode.sendKeys(zip);
-			Countryname.sendKeys(country);
-			Mobilenumber.sendKeys(mob);
-			Workemail.sendKeys(email);
-			Savebutton.click();
-			
-			  
-			
-	}
-	
+		/*
+		 * public void Details_page(String add,String city,String province,String
+		 * zip,String country,String mob,String email){
+		 * 
+		 * WebDriverWait wait= new WebDriverWait(driver,100);
+		 * wait.until(ExpectedConditions.visibilityOf(Address1));
+		 * 
+		 * Address1.sendKeys(add); Cityname.sendKeys(city);
+		 * Provincename.sendKeys(province); Zipcode.sendKeys(zip);
+		 * Countryname.sendKeys(country); Mobilenumber.sendKeys(mob);
+		 * Workemail.sendKeys(email); Savebutton.click();
+		 * 
+		 * 
+		 * 
+		 * }
+		 */
 	
 	
 

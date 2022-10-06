@@ -7,8 +7,8 @@
         <methods>
           <include name="Initsetup"/>
           <include name="Login"/>
+          <include name="Title"/>
           <include name="Closepage"/>
-          <include name="Details"/>
         </methods>
       </class> <!-- testlayer.Test_class -->
     </classes>
